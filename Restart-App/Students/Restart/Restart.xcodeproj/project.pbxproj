@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DABDF9D27DD34FC00E2D954 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABDF9C27DD34FC00E2D954 /* AudioPlayer.swift */; };
 		0DE5147027DBF17D0096DB5F /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5146F27DBF17D0096DB5F /* RestartApp.swift */; };
 		0DE5147227DBF17D0096DB5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5147127DBF17D0096DB5F /* ContentView.swift */; };
 		0DE5147427DBF17F0096DB5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE5147327DBF17F0096DB5F /* Assets.xcassets */; };
@@ -15,9 +16,11 @@
 		0DE5148027DBF22A0096DB5F /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DE5147E27DBF22A0096DB5F /* chimeup.mp3 */; };
 		0DE5148727DBF5D50096DB5F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5148627DBF5D50096DB5F /* OnboardingView.swift */; };
 		0DE5148927DBF5E40096DB5F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5148827DBF5E40096DB5F /* HomeView.swift */; };
+		0DE5148B27DC064A0096DB5F /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5148A27DC064A0096DB5F /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DABDF9C27DD34FC00E2D954 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		0DE5146C27DBF17D0096DB5F /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE5146F27DBF17D0096DB5F /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		0DE5147127DBF17D0096DB5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		0DE5148527DBF5590096DB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0DE5148627DBF5D50096DB5F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		0DE5148827DBF5E40096DB5F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0DE5148A27DC064A0096DB5F /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 		0DE5148327DBF3A30096DB5F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0DE5148A27DC064A0096DB5F /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 		0DE5148427DBF3BA0096DB5F /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				0DABDF9C27DD34FC00E2D954 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -185,10 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DE5148B27DC064A0096DB5F /* CircleGroupView.swift in Sources */,
 				0DE5148727DBF5D50096DB5F /* OnboardingView.swift in Sources */,
 				0DE5148927DBF5E40096DB5F /* HomeView.swift in Sources */,
 				0DE5147227DBF17D0096DB5F /* ContentView.swift in Sources */,
 				0DE5147027DBF17D0096DB5F /* RestartApp.swift in Sources */,
+				0DABDF9D27DD34FC00E2D954 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
